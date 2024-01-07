@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "0571e20d-3a32-4eba-a044-b21120b2ac40"
+        },
+        "resourceGroupName": {
+            "value": "RGWA"
+        },
+        "name": {
+            "value": "webbapp002"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-RGWA-8f93"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RGWA"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "JAVA|11-java11"
+        }
+    }
+}
